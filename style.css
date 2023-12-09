@@ -1,6 +1,6 @@
-*{
+/* *{
     border: solid red;
-}
+} */
 
 body{
     margin: 0;
@@ -11,9 +11,15 @@ body{
 /* elements on the hero section */
 .hero-section{
     background-color: #1F2937;
-    min-height: 380px;
+    min-height: 400px;
     gap: 3%;
     padding-bottom: 6%;
+}
+
+#wow{
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 11px;
 }
 
 .left-elements,
@@ -21,11 +27,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 31%;
+    width: 33%;
 }
 
 .right-elements{
     align-items: flex-end;
+    min-width: 44%;
 }
 
 .logo{
@@ -50,7 +57,8 @@ body{
 
 img{
     align-self: stretch;
-    height: 270px;
+    height: 280px;
+    border-radius: 15px;
 }
 
 .hero-section{
@@ -61,12 +69,12 @@ img{
 ul{
     display: flex;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 30px;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    min-height: 50px;
-    min-width: 65%;
+    height: 50px;
+    min-width: 50%;
     align-items: center;
 }
 
@@ -87,10 +95,46 @@ button{
 }
 
 /* elements on the middle section */
-.random{
+.random-header{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     display: flex;
     justify-content: center;
+    padding: 2%;
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6%;
+}
+
+.random-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 290px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image{
+    align-self: center;
+    max-width: 85%;
+    max-height: 85%;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+
+.subtext{
+    text-align: center;
+    width: 200px;
+    color: #1F2937;
 }
