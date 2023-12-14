@@ -1,7 +1,3 @@
-/* *{
-    border: solid red;
-} */
-
 body{
     margin: 0;
     padding: 0;
@@ -116,7 +112,8 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 290px;
+    max-width: 240px;
+    height: 298px;
 }
 
 .info-container{
@@ -127,8 +124,8 @@ button{
 
 .image{
     align-self: center;
-    max-width: 85%;
-    max-height: 85%;
+    max-width: 89%;
+    max-height: 80%;
     border-radius: 10px;
     border: 5px solid #3882F6;
 }
@@ -137,4 +134,77 @@ button{
     text-align: center;
     width: 200px;
     color: #1F2937;
+}
+
+/* elements on the quote section */
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    height: 433px; 
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container{
+    width: 62%;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    font-weight: bolder;
+    text-align: right;
+}
+
+/* Elements on the call to action section */
+.call-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 244px;
+}
+
+.call-container{
+    background-color: #3882F6;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2% 6%;
+    border-radius: 10px;
+}
+
+.call-header{
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: large;
+}
+
+.call-text{
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.call-container button{
+    border: solid #F9FAF8;
+}
+
+/* Elements on the footer section */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 78px;
+}
+
+.footer div{
+    color: #F9FAF8;
 }
