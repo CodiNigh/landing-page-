@@ -83,11 +83,12 @@ button{
     color: #E5E7EB;
     background-color: #3882F6;
     border-radius: 6px;
-    font-weight: 200;
+    font-weight: bold;
     font-size: medium;
     border: #1F2937;
     padding: 8px 20px;
     cursor: pointer;
+    
 }
 
 /* elements on the middle section */
@@ -153,6 +154,7 @@ button{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    font-weight: lighter;
 }
 
 .author{
