@@ -1,10 +1,10 @@
 body{
+    font-family: Arial, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, Tahoma, sans-serif;
 }
 
-/* elements on the hero section */
+/*Hero section */
 .hero-section{
     background-color: #1F2937;
     min-height: 400px;
@@ -32,11 +32,11 @@ body{
 }
 
 .logo{
-    color: #F9FAF8;
-    font-size: 24px;
-    display: flex;
-    height: 50px;
     align-items: center;
+    color: #F9FAF8;
+    display: flex;
+    font-size: 24px;
+    height: 50px;
 }
 
 .title-header{
@@ -53,8 +53,8 @@ body{
 
 img{
     align-self: stretch;
-    height: 280px;
     border-radius: 15px;
+    height: 280px;
 }
 
 .hero-section{
@@ -63,87 +63,87 @@ img{
 }
 
 ul{
+    align-items: center;
     display: flex;
-    justify-content: flex-end;
     gap: 30px;
+    height: 50px;
+    justify-content: flex-end;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    height: 50px;
     min-width: 50%;
-    align-items: center;
 }
 
 a{
-    text-decoration: none;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 button{
-    color: #E5E7EB;
     background-color: #3882F6;
-    border-radius: 6px;
-    font-weight: bold;
-    font-size: medium;
     border: #1F2937;
-    padding: 8px 20px;
+    border-radius: 6px;
+    color: #E5E7EB;
     cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    padding: 8px 20px;
     
 }
 
-/* elements on the middle section */
+/*Middle section */
 .random-header{
-    font-size: 36px;
-    font-weight: bolder;
     color: #1F2937;
     display: flex;
+    font-size: 36px;
+    font-weight: bolder;
     justify-content: center;
     padding: 2%;
 }
 
 .middle-section{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding-bottom: 6%;
 }
 
 .random-info{
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     max-width: 240px;
     height: 298px;
 }
 
 .info-container{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .image{
     align-self: center;
-    max-width: 89%;
-    max-height: 80%;
-    border-radius: 10px;
     border: 5px solid #3882F6;
+    border-radius: 10px;
+    max-height: 80%;
+    max-width: 89%;
 }
 
 .subtext{
+    color: #1F2937;
     text-align: center;
     width: 200px;
-    color: #1F2937;
 }
 
-/* elements on the quote section */
+/*Quote section */
 .quote-section{
+    align-items: center;
     background-color: #E5E7EB;
     display: flex;
     height: 433px; 
     justify-content: center;
-    align-items: center;
 }
 
 .quote-container{
@@ -151,9 +151,9 @@ button{
 }
 
 .quote{
+    color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
     font-weight: lighter;
 }
 
@@ -162,49 +162,49 @@ button{
     text-align: right;
 }
 
-/* Elements on the call to action section */
+/* Call to action section */
 .call-section{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     height: 244px;
+    justify-content: center;
 }
 
 .call-container{
+    align-items: flex-end;
     background-color: #3882F6;
-    width: 60%;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
     padding: 2% 6%;
-    border-radius: 10px;
+    width: 60%;
 }
 
 .call-header{
-    font-weight: bolder;
     color: #F9FAF8;
     font-size: large;
+    font-weight: bolder;
 }
 
 .call-text{
+    align-items: flex-end;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     width: 100%;
-    align-items: flex-end;
 }
 
 .call-container button{
     border: solid #F9FAF8;
 }
 
-/* Elements on the footer section */
+/*Footer section */
 .footer{
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    display: flex;
     height: 78px;
+    justify-content: center;
 }
 
 .footer div{
